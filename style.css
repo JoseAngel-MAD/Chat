@@ -1,0 +1,288 @@
+html{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  width:100%;
+  height:100%;
+  max-width:100%;
+  overflow-x: hidden;
+  /*border: 2px solid black;*/
+}
+a{
+  text-decoration:none;
+  color: black;
+}
+body{
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  /*border: 2px solid black;*/
+}
+
+img{
+  max-width:80%;
+  box-sizing: border-box;
+  /*border: 2px solid black;*/
+}
+.flex-nav li a{
+  text-decoration:none;
+  /*background:rgba(0,0,0,0.2);*/
+  /*background-color:#1E90FF;*/
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  display: inline-block;
+  width: 100%;
+  padding: 26px 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+  font-size:18px;
+  /*border: 2px solid black;*/
+  
+}
+
+
+.wrapper{
+  max-width: 100%;
+  /*padding: 50px;*/
+  margin: 0 auto;
+  /*border: 2px solid red;*/
+  /*border: 2px solid black;*/
+}
+
+.flex-nav ul{
+  /*border: 1px solid red;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*border-bottom: 2px solid black;*/
+  min-width: 99%;
+}
+
+.flex-nav li{
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+          /*border: 2px solid black;*/
+}
+
+.toggleNav{
+  display: none;
+}
+
+
+
+.chat-h1{
+  text-align: center;
+  font-size: 15vw;
+  margin:0;
+  margin-top: 10px;
+}
+
+
+/*TIERRA*/
+.tierra{
+background-color: #3498db;
+}
+.tierra img{
+  max-width:80%;
+  width:15vw;
+}
+.tierra p{
+  font-size:20px;
+  background-color:#DCF8C6;
+  border-radius: 2em;
+  padding:1em;
+  line-height:1.5em;
+}
+
+/*LUNA*/
+.luna{
+  background-color:#1abc9c;
+}
+.luna img{
+  max-width:80%;
+  width:15vw;
+}
+.luna p{
+  font-size:20px;
+  background-color:#DCF8C6;
+  border-radius: 2em;
+  padding:1em;
+  line-height:1.5em;
+}
+
+/*MARTE*/
+.marte{
+  background-color:#e74c3c;
+}
+.marte img{
+  max-width:80%;
+  width:15vw;
+}
+.marte p{
+  font-size:20px;
+  background-color:#DCF8C6;
+  border-radius: 2em;
+  padding:1em;
+  line-height:1.5em;
+}
+/*JUPITER*/
+.júpiter{
+  background-color:#16a085;
+}
+.júpiter img{
+  max-width:80%;
+  width:15vw;
+}
+.júpiter p{
+  font-size:20px;
+  background-color:#DCF8C6;
+  border-radius: 2em;
+  padding:1em;
+  line-height:1.5em;
+}
+/*MERCURIO*/
+.mercurio{
+  background-color:#34495e;
+}
+.mercurio img{
+  max-width:80%;
+  width:15vw;
+}
+.mercurio p{
+  font-size:20px;
+  background-color:#DCF8C6;
+  border-radius: 2em;
+  padding:1em;
+  line-height:1.5em;
+}
+/*PLUTON*/
+.plutón{
+  background-color:#f8e187;
+}
+.plutón img{
+  max-width:80%;
+  width:15vw;
+}
+.plutón p{
+  font-size:20px;
+  background-color:#DCF8C6;
+  border-radius: 2em;
+  padding:1em;
+  line-height:1.5em;
+}
+section{
+    padding : 2.66667rem calc(50% - 200px);
+text-align : center;
+max-width:100%;
+}
+
+
+.pie{
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.inline{
+  text-decoration: none;
+  border-top: 4px solid aquamarine;
+  padding-top: 0.7em;
+  display: inline-block;
+  color: black;
+}
+
+footer{
+  background-color:black;
+  padding : 2.66667rem calc(50% - 600px);
+text-align : center;
+max-width:100%;
+}
+footer p{
+  color:white;
+}
+footer a{
+  color:white;
+}
+
+
+small{
+  color: white;
+}
+
+
+
+
+
+@media all and (max-width:600px){
+ .flex-nav ul{
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+ }
+ 
+ 
+ .flex-nav li{
+   -ms-flex-preferred-size: 100%;
+       flex-basis: 100%;
+ }
+ 
+ .wrapper{
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+           /*border: 2px solid black;*/
+ }
+ 
+.toggleNav {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  max-width:100%;
+  padding: 20px 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-left:4px;
+  /*border: 2px solid black;*/
+}
+.flex-nav ul{
+  display: none;
+}
+.flex-nav ul.open{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.chat-h1{
+  /*display: none;*/
+  font-size: 20vw;
+}
+.toggleNav span{
+ text-align: center;
+ /*margin: 40%;*/
+ /*font-size: 25px;*/
+ display: inline-block;
+ /*margin: 0;*/
+ width:88%;
+}
+
+
+.Tierra, .Luna, .Marte, .Júpiter, .Mercurio, .Plutón{
+  max-width: 10vw;
+  padding-left: 2px;
+}
+
+}
+
